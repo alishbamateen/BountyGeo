@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     model = vpt_vit_base(int(args.pr), 5)
     model = model.to(device)
-    state_dict = torch.load(args.ckp_path, map_location=device)
+    state_dict = torch.load(args.ckp_path, map_location=device, weights_only=False)
     model.load_state_dict(state_dict["state_dict"], strict=False)
     model.eval()
 

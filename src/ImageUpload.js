@@ -97,18 +97,22 @@ const CloseButton = styled.button`
   padding: 4px; /* Add padding for better clickability */
 `;
 
+window.filename = "";
+
 function ImageUpload() {
   const [selectedImage, setSelectedImage] = useState(null);
   const navigate = useNavigate();
 
   const handleImageUpload = (event) => {
     const file = event.target.files[0];
+    window.filename = file.name;
     if (file) {
       const reader = new FileReader();
       reader.onloadend = () => {
         setSelectedImage(reader.result);
       };
-      reader.readAsDataURL(file);
+    window.filename = file.name;
+    reader.readAsDataURL(file);
     }
   };
 
@@ -116,9 +120,23 @@ function ImageUpload() {
     setSelectedImage(null);
   };
 
-  const handleSubmit = () => {
+  const runCommand = async () => {
+    var filename = window.filename
+    console.log("filename")
+    console.log(filename)
+    try {
+      const response = await fetch("http://localhost:5000/run-command", { method: "POST", headers: {
+        "Content-Type": "application/json",
+    }, body: JSON.stringify({filename, filename}),
+    });
+      const data = await response.json();
+      console.log("Command output:", data);
+    } catch (error) {
+      console.error("Error running command:", error);
+    }
     navigate('/damage-level'); // Navigate to the damage level page
-  };
+};
+
 
   return (
     <UploadContainer>
@@ -135,7 +153,7 @@ function ImageUpload() {
             <ImagePreview src={selectedImage} alt="Uploaded Preview" />
             <CloseButton onClick={handleRemoveImage}>× Delete</CloseButton>
           </ImagePreviewContainer>
-          <UploadButton onClick={handleSubmit}>Submit Picture</UploadButton>
+          <UploadButton onClick={runCommand}>Submit Picture</UploadButton>
         </div>
       )}
     </UploadContainer>
