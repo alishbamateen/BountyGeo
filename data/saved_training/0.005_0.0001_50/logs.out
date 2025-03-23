@@ -1,0 +1,222 @@
+Train size = 5308, Test size = 1328
+Classes : ['affected', 'destroyed', 'major', 'minor', 'no_damage']
+Training : Epoch [1/50], Loss: 1.5898
+Testing : Epoch [1/50], Loss: 1.9827, results: {'mAP': 0.14033951, 'mAR': 0.2023634, 'mAUC': 0.5658156, 'm_Accuracy': 0.2023634, 'ap': array([0.        , 0.4683642 , 0.        , 0.        , 0.23333333],
+      dtype=float32), 'ar': array([0.        , 0.9902121 , 0.        , 0.        , 0.02160494],
+      dtype=float32), 'auc': array([0.38775152, 0.68633455, 0.5471377 , 0.62258434, 0.58527005],
+      dtype=float32), 'accuracy': array([0.        , 0.9902121 , 0.        , 0.        , 0.02160494],
+      dtype=float32), 'f1': {'micro': tensor(0.4623), 'macro': tensor(0.1351), 'none': tensor([0.0000, 0.6359, 0.0000, 0.0000, 0.0395])}}
+Saving ./data/aug/0.005_0.0001_50/checkpoint_0.pt
+Training : Epoch [2/50], Loss: 1.4976
+Testing : Epoch [2/50], Loss: 1.8632, results: {'mAP': 0.09231928, 'mAR': 0.2, 'mAUC': 0.57119864, 'm_Accuracy': 0.2, 'ap': array([0.       , 0.4615964, 0.       , 0.       , 0.       ],
+      dtype=float32), 'ar': array([0., 1., 0., 0., 0.], dtype=float32), 'auc': array([0.39485154, 0.6706054 , 0.56689256, 0.6000025 , 0.62364125],
+      dtype=float32), 'accuracy': array([0., 1., 0., 0., 0.], dtype=float32), 'f1': {'micro': tensor(0.4616), 'macro': tensor(0.1263), 'none': tensor([0.0000, 0.6316, 0.0000, 0.0000, 0.0000])}}
+Training : Epoch [3/50], Loss: 1.4046
+Testing : Epoch [3/50], Loss: 1.7502, results: {'mAP': 0.09231928, 'mAR': 0.2, 'mAUC': 0.5846383, 'm_Accuracy': 0.2, 'ap': array([0.       , 0.4615964, 0.       , 0.       , 0.       ],
+      dtype=float32), 'ar': array([0., 1., 0., 0., 0.], dtype=float32), 'auc': array([0.47922856, 0.7022599 , 0.51292306, 0.58450836, 0.6442717 ],
+      dtype=float32), 'accuracy': array([0., 1., 0., 0., 0.], dtype=float32), 'f1': {'micro': tensor(0.4616), 'macro': tensor(0.1263), 'none': tensor([0.0000, 0.6316, 0.0000, 0.0000, 0.0000])}}
+Training : Epoch [4/50], Loss: 1.3543
+Testing : Epoch [4/50], Loss: 1.6929, results: {'mAP': 0.09231928, 'mAR': 0.2, 'mAUC': 0.59420174, 'm_Accuracy': 0.2, 'ap': array([0.       , 0.4615964, 0.       , 0.       , 0.       ],
+      dtype=float32), 'ar': array([0., 1., 0., 0., 0.], dtype=float32), 'auc': array([0.51467854, 0.75794953, 0.48962268, 0.56997365, 0.63878435],
+      dtype=float32), 'accuracy': array([0., 1., 0., 0., 0.], dtype=float32), 'f1': {'micro': tensor(0.4616), 'macro': tensor(0.1263), 'none': tensor([0.0000, 0.6316, 0.0000, 0.0000, 0.0000])}}
+Training : Epoch [5/50], Loss: 1.3347
+Testing : Epoch [5/50], Loss: 1.6691, results: {'mAP': 0.09231928, 'mAR': 0.2, 'mAUC': 0.68545103, 'm_Accuracy': 0.2, 'ap': array([0.       , 0.4615964, 0.       , 0.       , 0.       ],
+      dtype=float32), 'ar': array([0., 1., 0., 0., 0.], dtype=float32), 'auc': array([0.6221317 , 0.8541644 , 0.62091756, 0.64991623, 0.6801252 ],
+      dtype=float32), 'accuracy': array([0., 1., 0., 0., 0.], dtype=float32), 'f1': {'micro': tensor(0.4616), 'macro': tensor(0.1263), 'none': tensor([0.0000, 0.6316, 0.0000, 0.0000, 0.0000])}}
+Training : Epoch [6/50], Loss: 1.3176
+Testing : Epoch [6/50], Loss: 1.6454, results: {'mAP': 0.09231928, 'mAR': 0.2, 'mAUC': 0.7347113, 'm_Accuracy': 0.2, 'ap': array([0.       , 0.4615964, 0.       , 0.       , 0.       ],
+      dtype=float32), 'ar': array([0., 1., 0., 0., 0.], dtype=float32), 'auc': array([0.72517604, 0.9002088 , 0.6443198 , 0.6661792 , 0.73767275],
+      dtype=float32), 'accuracy': array([0., 1., 0., 0., 0.], dtype=float32), 'f1': {'micro': tensor(0.4616), 'macro': tensor(0.1263), 'none': tensor([0.0000, 0.6316, 0.0000, 0.0000, 0.0000])}}
+Training : Epoch [7/50], Loss: 1.2742
+Testing : Epoch [7/50], Loss: 1.5765, results: {'mAP': 0.092388846, 'mAR': 0.2, 'mAUC': 0.7536868, 'm_Accuracy': 0.2, 'ap': array([0.        , 0.46194422, 0.        , 0.        , 0.        ],
+      dtype=float32), 'ar': array([0., 1., 0., 0., 0.], dtype=float32), 'auc': array([0.7195637 , 0.92016566, 0.6556321 , 0.69032973, 0.7827425 ],
+      dtype=float32), 'accuracy': array([0., 1., 0., 0., 0.], dtype=float32), 'f1': {'micro': tensor(0.4616), 'macro': tensor(0.1264), 'none': tensor([0.0000, 0.6320, 0.0000, 0.0000, 0.0000])}}
+Training : Epoch [8/50], Loss: 1.0870
+Testing : Epoch [8/50], Loss: 1.3228, results: {'mAP': 0.26318988, 'mAR': 0.36438385, 'mAUC': 0.78054583, 'm_Accuracy': 0.36438385, 'ap': array([0.        , 0.8948247 , 0.        , 0.        , 0.42112482],
+      dtype=float32), 'ar': array([0.        , 0.8743883 , 0.        , 0.        , 0.94753087],
+      dtype=float32), 'auc': array([0.723003  , 0.9340307 , 0.70501   , 0.72980577, 0.81087995],
+      dtype=float32), 'accuracy': array([0.        , 0.8743883 , 0.        , 0.        , 0.94753087],
+      dtype=float32), 'f1': {'micro': tensor(0.6348), 'macro': tensor(0.2935), 'none': tensor([0.0000, 0.8845, 0.0000, 0.0000, 0.5831])}}
+Training : Epoch [9/50], Loss: 0.9141
+Testing : Epoch [9/50], Loss: 1.1381, results: {'mAP': 0.2737971, 'mAR': 0.3704157, 'mAUC': 0.78639305, 'm_Accuracy': 0.3704157, 'ap': array([0.        , 0.954792  , 0.        , 0.        , 0.41419354],
+      dtype=float32), 'ar': array([0.        , 0.86133766, 0.        , 0.        , 0.9907407 ],
+      dtype=float32), 'auc': array([0.7619758 , 0.93915284, 0.64965194, 0.7365997 , 0.84458464],
+      dtype=float32), 'accuracy': array([0.        , 0.86133766, 0.        , 0.        , 0.9907407 ],
+      dtype=float32), 'f1': {'micro': tensor(0.6393), 'macro': tensor(0.2980), 'none': tensor([0.0000, 0.9057, 0.0000, 0.0000, 0.5842])}}
+Training : Epoch [10/50], Loss: 0.8866
+Testing : Epoch [10/50], Loss: 1.1063, results: {'mAP': 0.46991643, 'mAR': 0.37152213, 'mAUC': 0.7971279, 'm_Accuracy': 0.37152213, 'ap': array([1.       , 0.9259897, 0.       , 0.       , 0.4235925],
+      dtype=float32), 'ar': array([0.00465116, 0.8776509 , 0.        , 0.        , 0.97530866],
+      dtype=float32), 'auc': array([0.79073113, 0.94953173, 0.6588536 , 0.72221804, 0.86430514],
+      dtype=float32), 'accuracy': array([0.00465116, 0.8776509 , 0.        , 0.        , 0.97530866],
+      dtype=float32), 'f1': {'micro': tensor(0.6438), 'macro': tensor(0.3002), 'none': tensor([0.0093, 0.9012, 0.0000, 0.0000, 0.5907])}}
+Training : Epoch [11/50], Loss: 0.8632
+Testing : Epoch [11/50], Loss: 1.0829, results: {'mAP': 0.41019607, 'mAR': 0.3936131, 'mAUC': 0.80483216, 'm_Accuracy': 0.3936131, 'ap': array([0.7083333 , 0.9       , 0.        , 0.        , 0.44264707],
+      dtype=float32), 'ar': array([0.15813954, 0.88091356, 0.        , 0.        , 0.92901236],
+      dtype=float32), 'auc': array([0.82727176, 0.95321643, 0.6348959 , 0.76086277, 0.8479139 ],
+      dtype=float32), 'accuracy': array([0.15813954, 0.88091356, 0.        , 0.        , 0.92901236],
+      dtype=float32), 'f1': {'micro': tensor(0.6589), 'macro': tensor(0.3497), 'none': tensor([0.2586, 0.8904, 0.0000, 0.0000, 0.5996])}}
+Saving ./data/aug/0.005_0.0001_50/checkpoint_10.pt
+Training : Epoch [12/50], Loss: 0.8359
+Testing : Epoch [12/50], Loss: 1.0390, results: {'mAP': 0.4155745, 'mAR': 0.4486292, 'mAUC': 0.8263396, 'm_Accuracy': 0.4486292, 'ap': array([0.6363636, 0.9464594, 0.       , 0.       , 0.4950495],
+      dtype=float32), 'ar': array([0.4232558, 0.8939641, 0.       , 0.       , 0.9259259],
+      dtype=float32), 'auc': array([0.8659897 , 0.9606087 , 0.68286675, 0.75602514, 0.866208  ],
+      dtype=float32), 'accuracy': array([0.4232558, 0.8939641, 0.       , 0.       , 0.9259259],
+      dtype=float32), 'f1': {'micro': tensor(0.7071), 'macro': tensor(0.4146), 'none': tensor([0.5084, 0.9195, 0.0000, 0.0000, 0.6452])}}
+Training : Epoch [13/50], Loss: 0.8098
+Testing : Epoch [13/50], Loss: 1.0072, results: {'mAP': 0.39545217, 'mAR': 0.45263046, 'mAUC': 0.82765615, 'm_Accuracy': 0.45263046, 'ap': array([0.53365386, 0.90468496, 0.        , 0.        , 0.53892213],
+      dtype=float32), 'ar': array([0.51627904, 0.91353995, 0.        , 0.        , 0.8333333 ],
+      dtype=float32), 'auc': array([0.86335695, 0.9669218 , 0.68270016, 0.7494937 , 0.8758085 ],
+      dtype=float32), 'accuracy': array([0.51627904, 0.91353995, 0.        , 0.        , 0.8333333 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7086), 'macro': tensor(0.4177), 'none': tensor([0.5248, 0.9091, 0.0000, 0.0000, 0.6545])}}
+Training : Epoch [14/50], Loss: 0.7756
+Testing : Epoch [14/50], Loss: 0.9701, results: {'mAP': 0.4178183, 'mAR': 0.47343168, 'mAUC': 0.83508384, 'm_Accuracy': 0.47343168, 'ap': array([0.60096157, 0.96466434, 0.        , 0.        , 0.5234657 ],
+      dtype=float32), 'ar': array([0.5813953 , 0.8907015 , 0.        , 0.        , 0.89506173],
+      dtype=float32), 'auc': array([0.87607765, 0.96201646, 0.68332964, 0.7747319 , 0.8792638 ],
+      dtype=float32), 'accuracy': array([0.5813953 , 0.8907015 , 0.        , 0.        , 0.89506173],
+      dtype=float32), 'f1': {'micro': tensor(0.7236), 'macro': tensor(0.4356), 'none': tensor([0.5910, 0.9262, 0.0000, 0.0000, 0.6606])}}
+Training : Epoch [15/50], Loss: 0.7597
+Testing : Epoch [15/50], Loss: 0.9495, results: {'mAP': 0.42279705, 'mAR': 0.4771448, 'mAUC': 0.8458749, 'm_Accuracy': 0.4771448, 'ap': array([0.60714287, 0.9716312 , 0.        , 0.        , 0.53521127],
+      dtype=float32), 'ar': array([0.5534884, 0.8939641, 0.       , 0.       , 0.9382716],
+      dtype=float32), 'auc': array([0.8805115 , 0.9689182 , 0.721099  , 0.76599413, 0.8928514 ],
+      dtype=float32), 'accuracy': array([0.5534884, 0.8939641, 0.       , 0.       , 0.9382716],
+      dtype=float32), 'f1': {'micro': tensor(0.7312), 'macro': tensor(0.4384), 'none': tensor([0.5791, 0.9312, 0.0000, 0.0000, 0.6816])}}
+Training : Epoch [16/50], Loss: 0.7340
+Testing : Epoch [16/50], Loss: 0.9207, results: {'mAP': 0.42023802, 'mAR': 0.4878172, 'mAUC': 0.8405836, 'm_Accuracy': 0.4878172, 'ap': array([0.5761317 , 0.9634146 , 0.        , 0.        , 0.56164384],
+      dtype=float32), 'ar': array([0.6511628 , 0.9021207 , 0.        , 0.        , 0.88580245],
+      dtype=float32), 'auc': array([0.88624084, 0.9694567 , 0.70093685, 0.7589377 , 0.8873457 ],
+      dtype=float32), 'accuracy': array([0.6511628 , 0.9021207 , 0.        , 0.        , 0.88580245],
+      dtype=float32), 'f1': {'micro': tensor(0.7380), 'macro': tensor(0.4461), 'none': tensor([0.6114, 0.9318, 0.0000, 0.0000, 0.6874])}}
+Training : Epoch [17/50], Loss: 0.7167
+Testing : Epoch [17/50], Loss: 0.8975, results: {'mAP': 0.41923952, 'mAR': 0.48502216, 'mAUC': 0.8440498, 'm_Accuracy': 0.48502216, 'ap': array([0.5826087 , 0.93453354, 0.        , 0.        , 0.5790554 ],
+      dtype=float32), 'ar': array([0.6232558, 0.9314845, 0.       , 0.       , 0.8703704],
+      dtype=float32), 'auc': array([0.89420587, 0.9712545 , 0.6908094 , 0.77278185, 0.89119756],
+      dtype=float32), 'accuracy': array([0.6232558, 0.9314845, 0.       , 0.       , 0.8703704],
+      dtype=float32), 'f1': {'micro': tensor(0.7432), 'macro': tensor(0.4461), 'none': tensor([0.6022, 0.9330, 0.0000, 0.0000, 0.6954])}}
+Training : Epoch [18/50], Loss: 0.7028
+Testing : Epoch [18/50], Loss: 0.8821, results: {'mAP': 0.42411977, 'mAR': 0.4852168, 'mAUC': 0.8452802, 'm_Accuracy': 0.4852168, 'ap': array([0.6066351, 0.9496644, 0.       , 0.       , 0.5642994],
+      dtype=float32), 'ar': array([0.59534883, 0.9233279 , 0.        , 0.        , 0.9074074 ],
+      dtype=float32), 'auc': array([0.89255524, 0.97156024, 0.6910872 , 0.7760444 , 0.89515394],
+      dtype=float32), 'accuracy': array([0.59534883, 0.9233279 , 0.        , 0.        , 0.9074074 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7440), 'macro': tensor(0.4466), 'none': tensor([0.6009, 0.9363, 0.0000, 0.0000, 0.6959])}}
+Training : Epoch [19/50], Loss: 0.6990
+Testing : Epoch [19/50], Loss: 0.8759, results: {'mAP': 0.42448264, 'mAR': 0.48183545, 'mAUC': 0.85187614, 'm_Accuracy': 0.48183545, 'ap': array([0.61809045, 0.94666666, 0.        , 0.        , 0.55765593],
+      dtype=float32), 'ar': array([0.572093  , 0.92659056, 0.        , 0.        , 0.91049385],
+      dtype=float32), 'auc': array([0.88744855, 0.97257555, 0.73078203, 0.76370037, 0.9048743 ],
+      dtype=float32), 'accuracy': array([0.572093  , 0.92659056, 0.        , 0.        , 0.91049385],
+      dtype=float32), 'f1': {'micro': tensor(0.7425), 'macro': tensor(0.4445), 'none': tensor([0.5942, 0.9365, 0.0000, 0.0000, 0.6917])}}
+Training : Epoch [20/50], Loss: 0.6753
+Testing : Epoch [20/50], Loss: 0.8554, results: {'mAP': 0.4181866, 'mAR': 0.4882625, 'mAUC': 0.8524636, 'm_Accuracy': 0.4882625, 'ap': array([0.54509807, 0.96891195, 0.        , 0.        , 0.5769231 ],
+      dtype=float32), 'ar': array([0.6465116 , 0.91517127, 0.        , 0.        , 0.8796296 ],
+      dtype=float32), 'auc': array([0.8929898 , 0.97526324, 0.71959937, 0.781682  , 0.8927838 ],
+      dtype=float32), 'accuracy': array([0.6465116 , 0.91517127, 0.        , 0.        , 0.8796296 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7417), 'macro': tensor(0.4459), 'none': tensor([0.5915, 0.9413, 0.0000, 0.0000, 0.6968])}}
+Training : Epoch [21/50], Loss: 0.6717
+Testing : Epoch [21/50], Loss: 0.8506, results: {'mAP': 0.42881933, 'mAR': 0.49138027, 'mAUC': 0.8547386, 'm_Accuracy': 0.49138027, 'ap': array([0.6232558, 0.9527027, 0.       , 0.       , 0.5681382],
+      dtype=float32), 'ar': array([0.6232558 , 0.9200652 , 0.        , 0.        , 0.91358024],
+      dtype=float32), 'auc': array([0.88872313, 0.97290635, 0.73450345, 0.7748006 , 0.9027593 ],
+      dtype=float32), 'accuracy': array([0.6232558 , 0.9200652 , 0.        , 0.        , 0.91358024],
+      dtype=float32), 'f1': {'micro': tensor(0.7485), 'macro': tensor(0.4520), 'none': tensor([0.6233, 0.9361, 0.0000, 0.0000, 0.7006])}}
+Saving ./data/aug/0.005_0.0001_50/checkpoint_20.pt
+Training : Epoch [22/50], Loss: 0.6581
+Testing : Epoch [22/50], Loss: 0.8350, results: {'mAP': 0.41777062, 'mAR': 0.49096423, 'mAUC': 0.86172837, 'm_Accuracy': 0.49096423, 'ap': array([0.55018586, 0.9346405 , 0.        , 0.        , 0.60402685],
+      dtype=float32), 'ar': array([0.6883721 , 0.93311584, 0.        , 0.        , 0.8333333 ],
+      dtype=float32), 'auc': array([0.9055559 , 0.9742046 , 0.76312673, 0.7683567 , 0.89739805],
+      dtype=float32), 'accuracy': array([0.6883721 , 0.93311584, 0.        , 0.        , 0.8333333 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7455), 'macro': tensor(0.4492), 'none': tensor([0.6116, 0.9339, 0.0000, 0.0000, 0.7004])}}
+Training : Epoch [23/50], Loss: 0.6500
+Testing : Epoch [23/50], Loss: 0.8272, results: {'mAP': 0.42157316, 'mAR': 0.4916219, 'mAUC': 0.8613016, 'm_Accuracy': 0.4916219, 'ap': array([0.572     , 0.9604131 , 0.        , 0.        , 0.57545274],
+      dtype=float32), 'ar': array([0.66511625, 0.9102773 , 0.        , 0.        , 0.88271606],
+      dtype=float32), 'auc': array([0.8978625 , 0.97594315, 0.7476302 , 0.7875509 , 0.897521  ],
+      dtype=float32), 'accuracy': array([0.66511625, 0.9102773 , 0.        , 0.        , 0.88271606],
+      dtype=float32), 'f1': {'micro': tensor(0.7432), 'macro': tensor(0.4493), 'none': tensor([0.6151, 0.9347, 0.0000, 0.0000, 0.6967])}}
+Training : Epoch [24/50], Loss: 0.6405
+Testing : Epoch [24/50], Loss: 0.8147, results: {'mAP': 0.55170023, 'mAR': 0.49657232, 'mAUC': 0.86356896, 'm_Accuracy': 0.49657232, 'ap': array([0.6315789 , 0.94684386, 0.        , 0.6       , 0.5800781 ],
+      dtype=float32), 'ar': array([0.6139535 , 0.9298532 , 0.        , 0.02238806, 0.9166667 ],
+      dtype=float32), 'auc': array([0.9009131 , 0.9763584 , 0.76023847, 0.7774632 , 0.90287155],
+      dtype=float32), 'accuracy': array([0.6139535 , 0.9298532 , 0.        , 0.02238806, 0.9166667 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7545), 'macro': tensor(0.4629), 'none': tensor([0.6226, 0.9383, 0.0000, 0.0432, 0.7105])}}
+Training : Epoch [25/50], Loss: 0.6287
+Testing : Epoch [25/50], Loss: 0.8065, results: {'mAP': 0.42756128, 'mAR': 0.49169713, 'mAUC': 0.86822444, 'm_Accuracy': 0.49169713, 'ap': array([0.61946905, 0.95911413, 0.        , 0.        , 0.5592233 ],
+      dtype=float32), 'ar': array([0.6511628, 0.9184339, 0.       , 0.       , 0.8888889],
+      dtype=float32), 'auc': array([0.9011012, 0.9778551, 0.7669777, 0.7950511, 0.9001371],
+      dtype=float32), 'accuracy': array([0.6511628, 0.9184339, 0.       , 0.       , 0.8888889],
+      dtype=float32), 'f1': {'micro': tensor(0.7462), 'macro': tensor(0.4520), 'none': tensor([0.6349, 0.9383, 0.0000, 0.0000, 0.6865])}}
+Training : Epoch [26/50], Loss: 0.6262
+Testing : Epoch [26/50], Loss: 0.8021, results: {'mAP': 0.4779459, 'mAR': 0.49789158, 'mAUC': 0.8676801, 'm_Accuracy': 0.49789158, 'ap': array([0.5925926 , 0.96277493, 0.        , 0.25      , 0.58436215],
+      dtype=float32), 'ar': array([0.66976744, 0.9282219 , 0.        , 0.01492537, 0.8765432 ],
+      dtype=float32), 'auc': array([0.9006833 , 0.97701776, 0.76386726, 0.7974637 , 0.8993686 ],
+      dtype=float32), 'accuracy': array([0.66976744, 0.9282219 , 0.        , 0.01492537, 0.8765432 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7523), 'macro': tensor(0.4607), 'none': tensor([0.6288, 0.9452, 0.0000, 0.0282, 0.7012])}}
+Training : Epoch [27/50], Loss: 0.6147
+Testing : Epoch [27/50], Loss: 0.7902, results: {'mAP': 0.5250983, 'mAR': 0.50274855, 'mAUC': 0.86254567, 'm_Accuracy': 0.50274855, 'ap': array([0.58536583, 0.9465776 , 0.        , 0.5       , 0.59354836],
+      dtype=float32), 'ar': array([0.66976744, 0.92495924, 0.        , 0.06716418, 0.8518519 ],
+      dtype=float32), 'auc': array([0.8990075 , 0.97645193, 0.7552581 , 0.7802383 , 0.90177256],
+      dtype=float32), 'accuracy': array([0.66976744, 0.92495924, 0.        , 0.06716418, 0.8518519 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7500), 'macro': tensor(0.4757), 'none': tensor([0.6247, 0.9356, 0.0000, 0.1184, 0.6996])}}
+Training : Epoch [28/50], Loss: 0.6000
+Testing : Epoch [28/50], Loss: 0.7715, results: {'mAP': 0.51163954, 'mAR': 0.50204045, 'mAUC': 0.86226976, 'm_Accuracy': 0.50204045, 'ap': array([0.5787402 , 0.95477384, 0.        , 0.42857143, 0.5961123 ],
+      dtype=float32), 'ar': array([0.68372095, 0.9298532 , 0.        , 0.04477612, 0.8518519 ],
+      dtype=float32), 'auc': array([0.905184  , 0.97899586, 0.7247649 , 0.7960824 , 0.90632224],
+      dtype=float32), 'accuracy': array([0.68372095, 0.9298532 , 0.        , 0.04477612, 0.8518519 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7523), 'macro': tensor(0.4703), 'none': tensor([0.6269, 0.9421, 0.0000, 0.0811, 0.7014])}}
+Training : Epoch [29/50], Loss: 0.5989
+Testing : Epoch [29/50], Loss: 0.7683, results: {'mAP': 0.50865, 'mAR': 0.51055557, 'mAUC': 0.8773937, 'm_Accuracy': 0.51055557, 'ap': array([0.6167401 , 0.95637584, 0.        , 0.36842105, 0.60171306],
+      dtype=float32), 'ar': array([0.6511628 , 0.9298532 , 0.        , 0.10447761, 0.86728394],
+      dtype=float32), 'auc': array([0.9117909 , 0.9777205 , 0.7802155 , 0.80352634, 0.9137155 ],
+      dtype=float32), 'accuracy': array([0.6511628 , 0.9298532 , 0.        , 0.10447761, 0.86728394],
+      dtype=float32), 'f1': {'micro': tensor(0.7568), 'macro': tensor(0.4899), 'none': tensor([0.6335, 0.9429, 0.0000, 0.1628, 0.7105])}}
+Training : Epoch [30/50], Loss: 0.5953
+Testing : Epoch [30/50], Loss: 0.7695, results: {'mAP': 0.49946123, 'mAR': 0.5080981, 'mAUC': 0.87055147, 'm_Accuracy': 0.5080981, 'ap': array([0.5400697, 0.9529412, 0.       , 0.3783784, 0.6259169],
+      dtype=float32), 'ar': array([0.7209302 , 0.92495924, 0.        , 0.10447761, 0.79012346],
+      dtype=float32), 'auc': array([0.8990994 , 0.977814  , 0.77897507, 0.7889822 , 0.907887  ],
+      dtype=float32), 'accuracy': array([0.7209302 , 0.92495924, 0.        , 0.10447761, 0.79012346],
+      dtype=float32), 'f1': {'micro': tensor(0.7470), 'macro': tensor(0.4837), 'none': tensor([0.6175, 0.9387, 0.0000, 0.1637, 0.6985])}}
+Training : Epoch [31/50], Loss: 0.5847
+Testing : Epoch [31/50], Loss: 0.7584, results: {'mAP': 0.5095907, 'mAR': 0.5081811, 'mAUC': 0.86950004, 'm_Accuracy': 0.5081811, 'ap': array([0.57723576, 0.9609508 , 0.        , 0.41463414, 0.59513277],
+      dtype=float32), 'ar': array([0.6604651 , 0.9233279 , 0.        , 0.12686567, 0.8302469 ],
+      dtype=float32), 'auc': array([0.90148145, 0.9792491 , 0.7567022 , 0.8039326 , 0.9061347 ],
+      dtype=float32), 'accuracy': array([0.6604651 , 0.9233279 , 0.        , 0.12686567, 0.8302469 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7485), 'macro': tensor(0.4891), 'none': tensor([0.6161, 0.9418, 0.0000, 0.1943, 0.6933])}}
+Saving ./data/aug/0.005_0.0001_50/checkpoint_30.pt
+Training : Epoch [32/50], Loss: 0.5770
+Testing : Epoch [32/50], Loss: 0.7518, results: {'mAP': 0.5194461, 'mAR': 0.5134859, 'mAUC': 0.86687315, 'm_Accuracy': 0.5134859, 'ap': array([0.6160714 , 0.9375    , 0.        , 0.44230768, 0.6013514 ],
+      dtype=float32), 'ar': array([0.6418605, 0.9298532, 0.       , 0.1716418, 0.8240741],
+      dtype=float32), 'auc': array([0.8997639 , 0.9774832 , 0.74675995, 0.8059764 , 0.90438247],
+      dtype=float32), 'accuracy': array([0.6418605, 0.9298532, 0.       , 0.1716418, 0.8240741],
+      dtype=float32), 'f1': {'micro': tensor(0.7515), 'macro': tensor(0.5010), 'none': tensor([0.6287, 0.9337, 0.0000, 0.2473, 0.6953])}}
+Training : Epoch [33/50], Loss: 0.5693
+Testing : Epoch [33/50], Loss: 0.7429, results: {'mAP': 0.49454278, 'mAR': 0.50102246, 'mAUC': 0.8697826, 'm_Accuracy': 0.50102246, 'ap': array([0.56916994, 0.94224423, 0.        , 0.35897437, 0.60232556],
+      dtype=float32), 'ar': array([0.66976744, 0.9314845 , 0.        , 0.10447761, 0.7993827 ],
+      dtype=float32), 'auc': array([0.90391773, 0.97797143, 0.7625713 , 0.7953824 , 0.9090705 ],
+      dtype=float32), 'accuracy': array([0.66976744, 0.9314845 , 0.        , 0.10447761, 0.7993827 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7440), 'macro': tensor(0.4802), 'none': tensor([0.6154, 0.9368, 0.0000, 0.1618, 0.6870])}}
+Training : Epoch [34/50], Loss: 0.5679
+Testing : Epoch [34/50], Loss: 0.7383, results: {'mAP': 0.49435192, 'mAR': 0.51024175, 'mAUC': 0.8740776, 'm_Accuracy': 0.51024175, 'ap': array([0.5797665 , 0.94554454, 0.        , 0.3283582 , 0.61809045],
+      dtype=float32), 'ar': array([0.69302326, 0.93474716, 0.        , 0.1641791 , 0.7592593 ],
+      dtype=float32), 'auc': array([0.9103408 , 0.9812569 , 0.7694771 , 0.8053764 , 0.90393674],
+      dtype=float32), 'accuracy': array([0.69302326, 0.93474716, 0.        , 0.1641791 , 0.7592593 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7455), 'macro': tensor(0.4944), 'none': tensor([0.6314, 0.9401, 0.0000, 0.2189, 0.6814])}}
+Training : Epoch [35/50], Loss: 0.5621
+Testing : Epoch [35/50], Loss: 0.7368, results: {'mAP': 0.5049377, 'mAR': 0.52619207, 'mAUC': 0.87259996, 'm_Accuracy': 0.52619207, 'ap': array([0.5507246 , 0.9611486 , 0.        , 0.35353535, 0.65927976],
+      dtype=float32), 'ar': array([0.7069768 , 0.9282219 , 0.        , 0.26119402, 0.7345679 ],
+      dtype=float32), 'auc': array([0.90261394, 0.9755667 , 0.76227504, 0.809714  , 0.9128302 ],
+      dtype=float32), 'accuracy': array([0.7069768 , 0.9282219 , 0.        , 0.26119402, 0.7345679 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7485), 'macro': tensor(0.5118), 'none': tensor([0.6191, 0.9444, 0.0000, 0.3004, 0.6949])}}
+Training : Epoch [36/50], Loss: 0.5601
+Testing : Epoch [36/50], Loss: 0.7330, results: {'mAP': 0.5112074, 'mAR': 0.52106434, 'mAUC': 0.87175006, 'm_Accuracy': 0.52106434, 'ap': array([0.60655737, 0.93365693, 0.        , 0.38666666, 0.629156  ],
+      dtype=float32), 'ar': array([0.6883721 , 0.94127244, 0.        , 0.21641791, 0.7592593 ],
+      dtype=float32), 'auc': array([0.90493745, 0.9762694 , 0.77179146, 0.7958449 , 0.9099067 ],
+      dtype=float32), 'accuracy': array([0.6883721 , 0.94127244, 0.        , 0.21641791, 0.7592593 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7530), 'macro': tensor(0.5096), 'none': tensor([0.6449, 0.9374, 0.0000, 0.2775, 0.6881])}}
+Training : Epoch [37/50], Loss: 0.5544
+Testing : Epoch [37/50], Loss: 0.7248, results: {'mAP': 0.52698576, 'mAR': 0.5304036, 'mAUC': 0.8731227, 'm_Accuracy': 0.5304036, 'ap': array([0.62173915, 0.94536424, 0.        , 0.43661973, 0.6312057 ],
+      dtype=float32), 'ar': array([0.66511625, 0.9314845 , 0.        , 0.23134328, 0.8240741 ],
+      dtype=float32), 'auc': array([0.9009047 , 0.97811294, 0.76860696, 0.8061889 , 0.9118003 ],
+      dtype=float32), 'accuracy': array([0.66511625, 0.9314845 , 0.        , 0.23134328, 0.8240741 ],
+      dtype=float32), 'f1': {'micro': tensor(0.7620), 'macro': tensor(0.5197), 'none': tensor([0.6427, 0.9384, 0.0000, 0.3024, 0.7149])}}
+Training : Epoch [38/50], Loss: 0.5439
+Testing : Epoch [38/50], Loss: 0.7186, results: {'mAP': 0.5241154, 'mAR': 0.51556265, 'mAUC': 0.86639345, 'm_Accuracy': 0.51556265, 'ap': array([0.587234  , 0.95166665, 0.        , 0.48076922, 0.600907  ],
+      dtype=float32), 'ar': array([0.6418605 , 0.9314845 , 0.        , 0.18656716, 0.81790125],
+      dtype=float32), 'auc': array([0.89772874, 0.97924227, 0.7377805 , 0.81417036, 0.90304524],
+      dtype=float32), 'accuracy': array([0.6418605 , 0.9314845 , 0.        , 0.18656716, 0.81790125],
+      dtype=float32), 'f1': {'micro': tensor(0.7523), 'macro': tensor(0.5033), 'none': tensor([0.6133, 0.9415, 0.0000, 0.2688, 0.6928])}}
