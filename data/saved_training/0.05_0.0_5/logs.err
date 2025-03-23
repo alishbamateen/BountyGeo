@@ -1,0 +1,21 @@
+/fs01/home/arturp/Development.d/GitHub.d/BountyGeo/multiclass_evaluator.py:22: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  in_output = torch.Tensor(in_output)
+WARNING:root:tensor([[0],
+        [2],
+        [3],
+        [4]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+/h/arturp/.local/lib/python3.12/site-packages/torcheval/metrics/functional/classification/accuracy.py:275: UserWarning: The reduce argument of torch.scatter with Tensor src is deprecated and will be removed in a future PyTorch release. Use torch.scatter_reduce instead for more reduction options. (Triggered internally at ../aten/src/ATen/native/TensorAdvancedIndexing.cpp:231.)
+  num_correct = mask.new_zeros(num_classes).scatter_(0, target, mask, reduce="add")
+WARNING:root:tensor([[2],
+        [3]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2],
+        [3]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2],
+        [3]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2],
+        [3]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+WARNING:root:tensor([[2]]) classes have zero instances in both the predictions and the ground truth labels. Precision is still logged as zero.
+slurmstepd: error: _handle_signal_container: failed signal 18 pid 30233 StepId=15457941.batch No such process
