@@ -11,6 +11,7 @@ app.post("/run-command", (req, res) => {
     const command = "python -u C:\\Users\\artur\\arturspark\\Development\\GitHub\\BountyGeo\\model\\evaluate.py --pr 5 --img_path C:\\Users\\artur\\arturspark\\Development\\GitHub\\BountyGeo\\data\\sample_images\\" + filename + " --ckp_path C:\\Users\\artur\\Downloads\\full_best_lr05_wd0001_pr5_checkpoint_40.pt"; 
     // Change this to the command you want
     exec(command, (error, stdout, stderr) => {
+        console.log(stdout)
         if (error == 0) return 0
         if (error == 1) return 1
         if (error == 2) return 2
